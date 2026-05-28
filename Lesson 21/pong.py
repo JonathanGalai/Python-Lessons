@@ -34,8 +34,8 @@ scoretext.penup()
 scoretext.goto(0, 300)
 scoretext.write("Pong", align="center", font=("Arial", 24, "bold"))
 
-dx = 2
-dy = 2
+dx = 3
+dy = 3
 keep_playing = True
 
 def player_up():
